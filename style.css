@@ -35,15 +35,15 @@ ul {
 li {
     margin: 20px;
     padding: 10px;
-    font-size: 40px;
+    font-size: 20px;
     color: #ecf0f1;
     list-style-type: none;
 }
 
 /*estilo dos icones*/
 .icones {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     border: 2px solid rgb(33, 111, 148);
 }
@@ -64,26 +64,26 @@ a {
 
 
 .container h1 {
-    font-size: 100px;
+    font-size: 50px;
     color: rgb(46, 224, 224);
     text-align: center;
     margin-top: 50px;
 }
 
 .container h2 {
-    font-size: 100px;
+    font-size: 50px;
     color: rgb(33, 111, 148);
     text-align: center;
 }
 
 .container h3 {
-    font-size: 80px;
+    font-size: 40px;
     color: rgb(33, 111, 148);
     text-align: center;
 }
 
 .container p {
-    font-size: 50px;
+    font-size: 20px;
     color: #ecf0f1;
     text-align: center;
     max-width: 2000px;
@@ -91,8 +91,8 @@ a {
 
 /*tamanho da foto*/
 .foto {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 30%;
     border: 2px solid rgb(33, 111, 148);
     
@@ -117,11 +117,11 @@ a {
     border-radius: 10%; 
     background-color: rgba(172, 155, 216, 0.1);
     color: #ecf0f1;
-    gap: 20px;
+    gap: 10px;
 }
 
 label {
-    font-size: 30px;
+    font-size: 15px;
     color: #ecf0f1;
 }
 
@@ -130,13 +130,13 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px; 
+    gap: 10px; 
 }
 
 input, textarea {
     width: 400px;
-    padding: 10px;
-    font-size: 20px;
+    padding: 5px;
+    font-size: 10px;
     border-radius: 5px;
     border: 2px solid rgb(33, 111, 148);
     background-color: rgba(17, 12, 29, 0.1);
@@ -144,9 +144,9 @@ input, textarea {
 }
 
 button {
-    width: 200px;
-    padding: 10px;
-    font-size: 30px;
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
     border-radius: 5px;
     border: 2px solid rgb(33, 111, 148);
     background-color: rgba(17, 12, 29, 0.1);
@@ -167,27 +167,33 @@ button:hover {
     background-color: #f1f1f100;
     color: #ecf0f1;
     text-align: center;
-    padding: 20px;
-    font-size: 30px;
+    padding: 14px;
+    font-size: 14px;
     bottom: 0;
 }
 
 /*para telas menores*/
 @media screen and (max-width: 768px) {
+
+    body {
+       display: flex;
+       flex-direction: column;
+    }
+
     nav {
       flex-direction: column;
     }
 
     .container {
-      padding: 10px;
+      padding: 5px;
     }
 
     .container h1 {
-      font-size: 50px;
+      font-size: 25px;
     }
 
     .container h2 {
-      font-size: 40px;
+      font-size: 20px;
     }
 
     .container h3 {
@@ -195,12 +201,12 @@ button:hover {
     }
 
     .container p {
-      font-size: 20px;
+      font-size: 10px;
     }
 
     .foto {
-      width: 100px;
-      height: 100px;
+      width: 50px;
+      height: 50px;
     }
 
     input, textarea {
@@ -211,7 +217,7 @@ button:hover {
       width: 100%;
     }
     .footer {
-      font-size: 20px;
-      padding: 10px;
+      font-size: 10px;
+      padding: 5px;
     }
 }
