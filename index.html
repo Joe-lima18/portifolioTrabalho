@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Jose</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <nav>
+         <ul>
+            <li><a href="#inicio"><img src="./imagens/home.gif" alt="inicio" class="icones">Inicio</a></li>
+            <li><a href="#sobre"> <img src="./imagens/perfil.gif" alt="perfil"  class="icones">Sobre mim</a></li>
+            <li><a href="#formacao"><img src="./imagens/formacao.gif" alt="formacao" class="icones">Formação educacional e idiomas</a></li>
+            <li><a href="#projetos"> <img src="./imagens/workplace.gif" alt="projetos" class="icones">Projetos</a></li>
+            <li><a href="#contatos"> <img src="./imagens/chat.gif" alt="contatos" class="icones">  Contatos</a></li>
+        </ul>
+    </nav>
+
+    <div class="container"> 
+    
+        <section id="inicio" class="pagina">
+            <img src= "./imagens/foto2.jpg" alt="minha foto" class="foto">
+            <h1>Olá meu nome é José Lima.</h1>
+            <p id="apresentacao">É um prazer te receber no meu portfólio. Aqui você poderá conhecer um pouco mais sobre mim e meus projetos.</p>
+        </section>
+    
+
+        <section id="sobre" class="pagina">
+            <h2>Sobre mim</h2>
+            <p>Meu nome é José Lima, sou cearense e atualmente moro em São Bernardo do Campo, São Paulo. Estou cursando Análise e Desenvolvimento de Sistemas na Uninter e tenho grande interesse pela área de tecnologia, especialmente pelo desenvolvimento de sistemas. Gosto de aprender coisas novas e estou sempre em busca de evoluir tanto profissional quanto pessoalmente.</p>
+            <h3> Hobbies</h3>
+            <ul>
+                <li>Gosto de ler</li>
+                <li>Gosto de jogar</li>
+                <li>Gosto de filmes e séries</li>
+                <li>Gosto de assistir esportes (principalmente futebol)</li>
+            </ul>
+        </section>
+
+        <section id="formacao" class="pagina">
+            <h2>Formação educacional e idiomas</h2>
+            <p>Sou estudante de Análise e Desenvolvimento de Sistemas na Uninter.</p>
+            <p>Técnico em Edificações (EEEP. Professora Alda Façanha)</p>
+            <p>Ensino Médio (EEEP. Professora Alda Façanha)</p>
+            <h3>Idiomas</h3>
+            <p>português (nativo)</p>
+            <p>inglês (básico)</p>
+            <p>espanhol (básico)</p>
+        </section>
+
+        <section id="projetos" class="pagina">
+            <h2>Projetos</h2>
+            <ul>
+                <li>
+                    <strong>Projetos calcular descontos com Python</strong><br />
+                    <a href="https://github.com/Joe-lima18/codigoPython.git" target="_blank">
+                    Acesse o repositório no GitHub</a>
+                </li>
+                <li>
+                    <strong>Projeto de site de futebol</strong><br />
+                    <a href="https://github.com/Joe-lima18/siteFutebol.git" target="_blank">
+                    Acesse o repositório no GitHub</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contatos" class="pagina">
+            <h2>Contatos</h2>
+            <p>Você pode entrar em contato comigo através do meu e-mail: joselima176@gmail.com</p>
+            <form id="formulario">
+                <label for="nome">Informe seu nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                    
+                <label for="mensagem">Deixe sua mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit" id="botao-enviar">Enviar</button>
+            </form>
+            <p>Você também pode me encontrar também:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/josé-lima-185526182" > <img src="./imagens/linkedin.png" alt="Linkedin" class="icones"></a></li>
+                <li><a href="https://github.com/Joe-lima18" > <img src="./imagens/github.png" alt="GitHub" class="icones"></a></li>
+                <li><a href="https://www.instagram.com/joe_lima18/" > <img src="./imagens/instagram.png" alt="Instagram" class="icones"></a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Desenvolvido por José Lima - Todos os direitos reservados</p>
+    </footer>
+    
+</body>
+</html>

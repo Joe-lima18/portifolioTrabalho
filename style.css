@@ -1,0 +1,217 @@
+/*para tirar as configuraçoes padrões do navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+/*estilo do body*/
+body{   
+    font-size: 100%;
+    background-color:rgb(12, 4, 36);
+}
+
+/*estilo do nav*/
+nav {
+    color: #ecf0f1;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+/*estilo do ul*/
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 20px 0 ;
+    justify-content: space-around;
+}
+
+/*estilo do li*/
+li {
+    margin: 20px;
+    padding: 10px;
+    font-size: 40px;
+    color: #ecf0f1;
+    list-style-type: none;
+}
+
+/*estilo dos icones*/
+.icones {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(33, 111, 148);
+}
+
+a {
+    color: rgb(244, 245, 245);
+    &:hover {background-color: #42b0be;}
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
+
+.container h1 {
+    font-size: 100px;
+    color: rgb(46, 224, 224);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container h2 {
+    font-size: 100px;
+    color: rgb(33, 111, 148);
+    text-align: center;
+}
+
+.container h3 {
+    font-size: 80px;
+    color: rgb(33, 111, 148);
+    text-align: center;
+}
+
+.container p {
+    font-size: 50px;
+    color: #ecf0f1;
+    text-align: center;
+    max-width: 2000px;
+}
+
+/*tamanho da foto*/
+.foto {
+    width: 400px;
+    height: 400px;
+    border-radius: 30%;
+    border: 2px solid rgb(33, 111, 148);
+    
+}
+
+/*estilo da pagina, para separar em paginas diferentes*/
+.pagina {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2000px;
+    justify-content: center;
+    padding: 30px;
+    border: 2px solid rgb(2, 9, 12);
+    margin: 20px;
+    border-radius: 10%; 
+    background-color: rgba(172, 155, 216, 0.1);
+    color: #ecf0f1;
+    gap: 20px;
+}
+
+label {
+    font-size: 30px;
+    color: #ecf0f1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+}
+
+input, textarea {
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(33, 111, 148);
+    background-color: rgba(17, 12, 29, 0.1);
+    color: #ecf0f1;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(33, 111, 148);
+    background-color: rgba(17, 12, 29, 0.1);
+    color: #ecf0f1;
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+button:hover {
+    background-color: #42b0be; /* Muda a cor de fundo ao passar o mouse */
+    color: #ecf0f1; /* Muda a cor do texto ao passar o mouse */
+}
+
+/*estilo do rodapé*/
+.footer {
+    display: flex;
+    position: fixed;
+    width: 100vh;
+    background-color: #f1f1f100;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    bottom: 0;
+}
+
+/*para telas menores*/
+@media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .container {
+      padding: 10px;
+    }
+
+    .container h1 {
+      font-size: 50px;
+    }
+
+    .container h2 {
+      font-size: 40px;
+    }
+
+    .container h3 {
+      font-size: 30px;
+    }
+
+    .container p {
+      font-size: 20px;
+    }
+
+    .foto {
+      width: 100px;
+      height: 100px;
+    }
+
+    input, textarea {
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+    }
+    .footer {
+      font-size: 20px;
+      padding: 10px;
+    }
+}
