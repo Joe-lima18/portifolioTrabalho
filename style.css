@@ -86,7 +86,7 @@ a {
     font-size: 20px;
     color: #ecf0f1;
     text-align: center;
-    max-width: 2000px;
+    max-width: 1500px;
 }
 
 /*tamanho da foto*/
@@ -109,7 +109,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 2000px;
+    width: 1800px;
     justify-content: center;
     padding: 30px;
     border: 2px solid rgb(2, 9, 12);
